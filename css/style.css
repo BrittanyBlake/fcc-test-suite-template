@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list a{
+    color:white;
+    padding: 19px;
+    font-size: 25px;
+    text-decoration: none;
+}
+@media (max-width: 700PX){
+    .nav-list{
+        flex-direction: column;
+    }
+}
